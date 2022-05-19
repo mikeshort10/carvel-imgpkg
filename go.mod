@@ -1,4 +1,4 @@
-module github.com/vmware-tanzu/carvel-imgpkg
+module github.com/mikeshort10/carvel-imgpkg
 
 go 1.18
 
@@ -15,7 +15,7 @@ require (
 	github.com/stretchr/testify v1.7.1
 	github.com/vdemeester/k8s-pkg-credentialprovider v1.22.4
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20220422013727-9388b58f7150
+	golang.org/x/sys v0.0.0-20220517195934-5e4e11fc645e
 	k8s.io/apimachinery v0.23.6
 	k8s.io/client-go v0.23.0 // indirect
 	k8s.io/klog/v2 v2.60.1
@@ -41,6 +41,8 @@ require (
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker v20.10.12+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
+	github.com/dvyukov/go-fuzz v0.0.0-20220220162807-a217d9bdbece // indirect
+	github.com/elazarl/go-bindata-assetfs v1.0.1 // indirect
 	github.com/form3tech-oss/jwt-go v3.2.3+incompatible // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
@@ -63,6 +65,7 @@ require (
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/stephens2424/writerset v1.0.2 // indirect
 	github.com/vbatts/tar-split v0.11.2 // indirect
 	github.com/vito/go-interact v1.0.1 // indirect
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
@@ -73,7 +76,7 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	golang.org/x/tools v0.1.10 // indirect
-	golang.org/x/xerrors v0.0.0-20220411194840-2f41105eb62f // indirect
+	golang.org/x/xerrors v0.0.0-20220517211312-f3a8303e98df // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
